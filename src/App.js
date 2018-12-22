@@ -45,7 +45,7 @@ class App extends React.Component{
             </Nav>
           </Collapse>
         </Navbar>
-        <Router>
+        <Router path={process.env.PUBLIC_URL + '/'}>
         <Switch>
         <Route exact={true} path={routes.SERVICE_FORM} component={ServiceRequestForm} />
         {/* <Route exact={true} path={routes.LOGIN} component={LoginPage} />
