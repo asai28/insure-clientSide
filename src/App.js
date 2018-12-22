@@ -55,6 +55,7 @@ class App extends React.Component{
             </Nav>
           </Collapse>
         </Navbar>
+        {console.log(process.env.PUBLIC_URL)}
         <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
         <Route exact={true} path={routes.SERVICE_FORM} component={ServiceRequestForm} />
