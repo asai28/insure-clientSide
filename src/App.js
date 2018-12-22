@@ -15,6 +15,7 @@ class App extends React.Component{
       isOpen: false
     };
     this.toggle = this.toggle.bind(this);
+    console.log(process.env.PUBLIC_URL);
   }
 
   //Toggling Navbar
@@ -41,7 +42,7 @@ class App extends React.Component{
               <NavItem>
                 <NavLink href={CONSTANTS.TASK_LIST}>Task List</NavLink>
               </NavItem>
-              <UncontrolledDropdown nav inNavbar>
+              {/* <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
                   Options
                 </DropdownToggle>
@@ -51,17 +52,16 @@ class App extends React.Component{
                   <DropdownItem divider />
                   <DropdownItem>Reset</DropdownItem>
                 </DropdownMenu>
-              </UncontrolledDropdown>
+              </UncontrolledDropdown> */}
             </Nav>
           </Collapse>
         </Navbar>
-        {console.log(process.env.PUBLIC_URL)}
         <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
-        <Route path={routes.SERVICE_FORM} component={ServiceRequestForm} />
+        <Route exact={true} path={routes.SERVICE_FORM} component={ServiceRequestForm} />
         {/* <Route exact={true} path={routes.LOGIN} component={LoginPage} />
         <Route exact={true} path={routes.REGISTER} component={RegisterPage} /> */}
-        <Route path={routes.TASK_LIST} component={TaskList} />
+        <Route exact={true} path={routes.TASK_LIST} component={TaskList} />
         <Route component={() => (<div>404 Not found </div>)} />
         </Switch>
         </BrowserRouter>
