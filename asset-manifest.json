@@ -1,7 +1,7 @@
 {
   "main.css": "https://asai28.github.io/insure-clientSide/static/css/main.e85987e1.chunk.css",
-  "main.js": "https://asai28.github.io/insure-clientSide/static/js/main.5307cb85.chunk.js",
-  "main.js.map": "https://asai28.github.io/insure-clientSide/static/js/main.5307cb85.chunk.js.map",
+  "main.js": "https://asai28.github.io/insure-clientSide/static/js/main.a39932a4.chunk.js",
+  "main.js.map": "https://asai28.github.io/insure-clientSide/static/js/main.a39932a4.chunk.js.map",
   "static/css/1.aa4e15f2.chunk.css": "https://asai28.github.io/insure-clientSide/static/css/1.aa4e15f2.chunk.css",
   "static/js/1.b235127f.chunk.js": "https://asai28.github.io/insure-clientSide/static/js/1.b235127f.chunk.js",
   "static/js/1.b235127f.chunk.js.map": "https://asai28.github.io/insure-clientSide/static/js/1.b235127f.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/1.aa4e15f2.chunk.css.map": "https://asai28.github.io/insure-clientSide/static/css/1.aa4e15f2.chunk.css.map",
   "static/css/main.e85987e1.chunk.css.map": "https://asai28.github.io/insure-clientSide/static/css/main.e85987e1.chunk.css.map",
   "index.html": "https://asai28.github.io/insure-clientSide/index.html",
-  "precache-manifest.57ca32b40e778444194f5de21f958e27.js": "https://asai28.github.io/insure-clientSide/precache-manifest.57ca32b40e778444194f5de21f958e27.js",
+  "precache-manifest.79a067cb6cc96e3c879ec07a63a35e4a.js": "https://asai28.github.io/insure-clientSide/precache-manifest.79a067cb6cc96e3c879ec07a63a35e4a.js",
   "service-worker.js": "https://asai28.github.io/insure-clientSide/service-worker.js"
 }
