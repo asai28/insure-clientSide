@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "https://asai28.github.io/insure-clientSide/static/js/runtime~main.7225455a.js"
   },
   {
-    "revision": "a39932a4928469f2d002",
-    "url": "https://asai28.github.io/insure-clientSide/static/js/main.a39932a4.chunk.js"
+    "revision": "c1a28e8faa1057d86375",
+    "url": "https://asai28.github.io/insure-clientSide/static/js/main.c1a28e8f.chunk.js"
   },
   {
     "revision": "b235127f09231001cd55",
     "url": "https://asai28.github.io/insure-clientSide/static/js/1.b235127f.chunk.js"
   },
   {
-    "revision": "a39932a4928469f2d002",
+    "revision": "c1a28e8faa1057d86375",
     "url": "https://asai28.github.io/insure-clientSide/static/css/main.e85987e1.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "https://asai28.github.io/insure-clientSide/static/css/1.aa4e15f2.chunk.css"
   },
   {
-    "revision": "fb16fa810fab863b810fee021c3d16b4",
+    "revision": "38f69f6f33775907bc623947aceb20ff",
     "url": "https://asai28.github.io/insure-clientSide/index.html"
   }
 ];
