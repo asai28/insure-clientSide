@@ -1,7 +1,7 @@
 {
   "main.css": "/insure-clientSide/static/css/main.e85987e1.chunk.css",
-  "main.js": "/insure-clientSide/static/js/main.7e06a534.chunk.js",
-  "main.js.map": "/insure-clientSide/static/js/main.7e06a534.chunk.js.map",
+  "main.js": "/insure-clientSide/static/js/main.f53bb90f.chunk.js",
+  "main.js.map": "/insure-clientSide/static/js/main.f53bb90f.chunk.js.map",
   "static/css/1.aa4e15f2.chunk.css": "/insure-clientSide/static/css/1.aa4e15f2.chunk.css",
   "static/js/1.4c409546.chunk.js": "/insure-clientSide/static/js/1.4c409546.chunk.js",
   "static/js/1.4c409546.chunk.js.map": "/insure-clientSide/static/js/1.4c409546.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/1.aa4e15f2.chunk.css.map": "/insure-clientSide/static/css/1.aa4e15f2.chunk.css.map",
   "static/css/main.e85987e1.chunk.css.map": "/insure-clientSide/static/css/main.e85987e1.chunk.css.map",
   "index.html": "/insure-clientSide/index.html",
-  "precache-manifest.3bdc2487d827177c557a8ec067af5eb2.js": "/insure-clientSide/precache-manifest.3bdc2487d827177c557a8ec067af5eb2.js",
+  "precache-manifest.e84324417ccf3a1782559a309826b6b0.js": "/insure-clientSide/precache-manifest.e84324417ccf3a1782559a309826b6b0.js",
   "service-worker.js": "/insure-clientSide/service-worker.js"
 }
