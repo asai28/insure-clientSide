@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://asai28.github.io/insure-clientSide/precache-manifest.c8d5f28cbdb9af417c1a9ff391ef7294.js"
+  "https://asai28.github.io/insure-clientSide/precache-manifest.e94145190d1fd325bd52a4f62c8a900c.js"
 );
 
 workbox.clientsClaim();
