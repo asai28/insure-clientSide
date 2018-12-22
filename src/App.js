@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import CONSTANTS from "./constants/routes.js";
 import ServiceRequestForm from "./Pages/ServiceRequestForm/ServiceRequestForm";
 import TaskList from "./Pages/TaskList/TaskList";
