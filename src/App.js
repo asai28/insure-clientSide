@@ -55,7 +55,7 @@ class App extends React.Component{
             </Nav>
           </Collapse>
         </Navbar>
-        <Router basename={process.env.PUBLIC_URL}>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
         <Route exact={true} path={routes.SERVICE_FORM} component={ServiceRequestForm} />
         {/* <Route exact={true} path={routes.LOGIN} component={LoginPage} />
@@ -63,7 +63,7 @@ class App extends React.Component{
         <Route exact={true} path={routes.TASK_LIST} component={TaskList} />
         <Route component={() => (<div>404 Not found </div>)} />
         </Switch>
-        </Router>
+        </BrowserRouter>
     </div>
   ) 
   

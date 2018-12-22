@@ -1,7 +1,7 @@
-const REGISTER =  process.env.PUBLIC_URL + '/register';
-const LOGIN = process.env.PUBLIC_URL + '/login';
-const SERVICE_FORM = process.env.PUBLIC_URL + '/srf';
-const TASK_LIST = process.env.PUBLIC_URL + '/tasklist';
+const REGISTER = '/register';
+const LOGIN = '/login';
+const SERVICE_FORM = '/srf';
+const TASK_LIST = '/tasklist';
 
 export default {
     REGISTER: REGISTER,
