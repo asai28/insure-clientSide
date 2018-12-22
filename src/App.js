@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import CONSTANTS from "./constants/routes.js";
 import ServiceRequestForm from "./Pages/ServiceRequestForm/ServiceRequestForm";
 import TaskList from "./Pages/TaskList/TaskList";
@@ -45,7 +45,7 @@ class App extends React.Component{
             </Nav>
           </Collapse>
         </Navbar>
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Router>
         <Switch>
         <Route exact={true} path={routes.SERVICE_FORM} component={ServiceRequestForm} />
         {/* <Route exact={true} path={routes.LOGIN} component={LoginPage} />
@@ -53,7 +53,7 @@ class App extends React.Component{
         <Route exact={true} path={routes.TASK_LIST} component={TaskList} />
         <Route component={() => (<div>404 Not found </div>)} />
         </Switch>
-        </BrowserRouter>
+        </Router>
     </div>
   ) 
   
