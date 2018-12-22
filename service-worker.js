@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/insure-clientSide/precache-manifest.e7f07e671e2278289b496fb8a82d9b39.js"
+  "https://asai28.github.io/insure-clientSide/precache-manifest.7fcc37ada336d47da87a10e296716e2c.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/insure-clientSide/index.html", {
+workbox.routing.registerNavigationRoute("https://asai28.github.io/insure-clientSide/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
