@@ -55,12 +55,13 @@ class App extends React.Component{
             </Nav>
           </Collapse>
         </Navbar>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
         <Switch>
         <Route exact={true} path={routes.SERVICE_FORM} component={ServiceRequestForm} />
         {/* <Route exact={true} path={routes.LOGIN} component={LoginPage} />
         <Route exact={true} path={routes.REGISTER} component={RegisterPage} /> */}
         <Route exact={true} path={routes.TASK_LIST} component={TaskList} />
+        <Route component={() => (<div>404 Not found </div>)} />
         </Switch>
         </Router>
     </div>
