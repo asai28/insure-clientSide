@@ -1,7 +1,7 @@
-const REGISTER = './register';
-const LOGIN = './login';
-const SERVICE_FORM = './srf';
-const TASK_LIST = './tasklist';
+const REGISTER = '/register';
+const LOGIN = '/login';
+const SERVICE_FORM = '/srf';
+const TASK_LIST = '/tasklist';
 
 export default {
     REGISTER: REGISTER,
