@@ -36,10 +36,10 @@ class App extends React.Component{
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/srf">Service Request Form</NavLink>
+                <NavLink href={CONSTANTS.SERVICE_FORM}>Service Request Form</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/tasklist">Task List</NavLink>
+                <NavLink href={CONSTANTS.TASK_LIST}>Task List</NavLink>
               </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>

@@ -1,7 +1,7 @@
-const REGISTER = '/register';
-const LOGIN = '/login';
-const SERVICE_FORM = '/srf';
-const TASK_LIST = '/tasklist';
+const REGISTER = 'insure-clientSide/register';
+const LOGIN = 'insure-clientSide/login';
+const SERVICE_FORM = 'insure-clientSide/srf';
+const TASK_LIST = 'insure-clientSide/tasklist';
 
 export default {
     REGISTER: REGISTER,
